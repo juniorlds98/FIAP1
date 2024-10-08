@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.links{
+    justify-content: space-around;
+}
+
+.home{
+    padding: 20px;
+}
+
+.home2{
+    padding: 3px;
+}
+
+.account{
+    color: #F21667;
+    margin-left: 10px;
+}
+
+.MUSIC{
+    color: white;
+}
+
+.FIAP{
+    color: #F21667;
+}
+
+.music{
+    color: #410093;
+    font-size: 84px;
+}
+
+p{
+
+}
+
+.everyone{
+    color: white;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+img{
+    width: 750px;
+    text-align: end;
+    border-radius: 15px;
+    
+}
+
+h1{
+    width: 350px;
+}
+
+.download{
+    background-color: #F21667;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 175px;
+    height: 45px;
+
+}
+
+.start{
+    background-color: #410093;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 175px;
+    height: 45px;
+
+}
