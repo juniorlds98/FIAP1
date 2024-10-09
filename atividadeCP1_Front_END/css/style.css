@@ -22,6 +22,8 @@ header{
 
 /*PS: Os dois estilos a baixo (MUSIC e FIAP) foram as formas que eu encontrei de estilizar as duas palavras
 sem precisar necessáriamente separas as palavras*/
+/*PS²: Coloquei interação no cursor pois queria "simular" um botão, mas estava com preguiça de estilizar um 
+botão e fazer parecer que não era um botão"*/
 
 .music{
     color: #cedbea;
@@ -31,6 +33,8 @@ sem precisar necessáriamente separas as palavras*/
 .fiap{
     color: #70032A;
 }
+
+/*Coloquei uma classe geral para o cabeçalho para estilizar todos igualmente*/
 
 .home{
     margin: 45.48px;
