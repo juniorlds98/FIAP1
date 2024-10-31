@@ -19,16 +19,16 @@
         </div>
         <div class="container--upper">
             <div class="container--name">
-                <h3>Piplup</h3>
-                <h4>#001</h4>
+                <h3 id="nome">Piplup</h3>
+                <h4 id="numero">#001</h4>
             </div>
             <button class="container--type"> aqua </button>
             <div class="container--image">
-                <img src="./src/img/piplup 2.png" alt="piplup" class="pokemon--image">
+                <img id="figura" src="./src/img/piplup 2.png" alt="piplup" class="pokemon--image">
             </div>
         </div>        
         <div class="container--status">
-            <ul class="container--power">
+            <ul id="status" class="container--power">
                 <li class="title">Status</li>
                 <li>HP:</li>
                 <li>Ataque:</li>
@@ -38,7 +38,7 @@
                 <li>Velocidade:</li>
                 <li>Total:</li>
             </ul>
-            <ul class="container--hability">
+            <ul id="habilidades" class="container--hability">
                 <li class="title">Habilidades</li>
                 <li>Alguma lá</li>
                 <li>Alguma cá</li>
@@ -46,10 +46,10 @@
         </div>
     </main>
     <footer>
-        <button class="button"><img src="./src/img/piplup.rosto.png" alt="Piplup" class="pokemon-1">Piplup</button>
-        <button class="button"><img src="./src/img/prinplup.rosto.png" alt="Prinplup" class="pokemon-2">Prinplup</button>
-        <button class="button"><img src="./src/img/empoleon.rosto.png" alt="Empoleon" class="pokemon-3">Empoleon</button>
+        <button onclick="trocar(pokemon1, nome1, numero1, status1, habilidades)" class="button"><img src="./src/img/piplup.rosto.png" alt="Piplup" class="pokemon-1">Piplup</button>
+        <button onclick="trocar(pokemon2, nome2, numero2, status2, habilidades)" class="button"><img src="./src/img/prinplup.rosto.png" alt="Prinplup" class="pokemon-2">Prinplup</button>
+        <button onclick="trocar(pokemon3, nome3, numero3, status3, habilidades)" class="button"><img src="./src/img/empoleon.rosto.png" alt="Empoleon" class="pokemon-3">Empoleon</button>
     </footer>
 </body>
-
+<script src="./js/script.js"></script>
 </html>
