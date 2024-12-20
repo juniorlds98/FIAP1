@@ -1,6 +1,12 @@
 import random
 
-alunos = ["Junior", "Bruno", "Carmine", "Thiago"]
+alunos = []
+qtdAlunos = 4
+
+
+while len(alunos) < qtdAlunos:
+    aluno = input(f"Informe o nome do aluno {len(alunos)+1}: ")
+    alunos.append(aluno)
 
 print ("Sorteio da apresentação")
 print("")

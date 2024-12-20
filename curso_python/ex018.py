@@ -1,10 +1,10 @@
-import math
+from math import sin, cos, tan, radians
 
 angulo = int(input("Escolha um ângulo: "))
-radiano = math.radians(angulo)
+radiano = radians(angulo)
 
-seno = math.sin(radiano)
-cosseno = math.cos(radiano)
-tangente = math.tan(radiano)
+seno = sin(radiano)
+cosseno = cos(radiano)
+tangente = tan(radiano)
 
-print(f"O seu ãngulo escolhido foi: {angulo} e ao calcular ele deu os seguintes resultados: \n Seno: {seno} \n Cosseno: {cosseno} \n Tangente: {tangente}")
+print(f"O seu ãngulo escolhido foi: {angulo} e ao calcular ele deu os seguintes resultados: \n Seno: {seno:.2f} \n Cosseno: {cosseno:.2f} \n Tangente: {tangente:.2f}")
